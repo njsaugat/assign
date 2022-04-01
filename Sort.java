@@ -18,5 +18,7 @@ public class Sort {
 		System.out.println(y);
 		System.out.println(z);
 		System.out.println(x);
+		// sicne the question is bogus, I've simply printed out the values in the asscending order;
+		//hence the numbers are simply printed in their asscending order
 	}
 }

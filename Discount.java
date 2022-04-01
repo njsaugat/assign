@@ -36,8 +36,9 @@ public class Discount {
 		Scanner scan=new Scanner(System.in);
 		System.out.print("Enter your name :");
 		String name=scan.next();
-		System.out.print("Enter your address :");
+		System.out.println("Enter your address :");
 		String address=scan.next();
+//		System.out.println(" ");
 		System.out.print("Enter your purchase amount in Rs : ");
 		int amount=scan.nextInt();
 		System.out.print("Enter  L for laptop and D for desktop :");
