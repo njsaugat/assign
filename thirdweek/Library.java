@@ -1,5 +1,6 @@
 package com.assign.thirdweek;
 
+import java.util.Scanner;
 public class Library {
 	public static int totalFine(int days) {
 		int day=days;
@@ -47,6 +48,10 @@ public class Library {
 		return cost;	
 	}
 	public static void main(String[] args) {
-		System.out.println(totalFines(20));
+		Scanner scan=new Scanner(System.in);
+		System.out.println("Enter the number of days :");
+		int days=scan.nextInt();
+		System.out.println("Rs."+ totalFines(days)+" is the total fine to be paid.");
+		scan.close();
 	}
 }
