@@ -129,11 +129,6 @@ public class Patterns {
 
 
 
-		// String s1="refrigerator";
-		// // int len=sizeof(s1)/sizeof('r');
-		// // System.out.println(s1.length());
-
-		// System.out.println(s1.contains("e"));
-		// // for()
+		
 	}
 }
