@@ -16,16 +16,10 @@ public class PrintSum {
 				sumEven+=num;
 			}else {
 				sumOdd+=num;
-			}
-			
-			
-			if(valueyn=='n') {val=false;}
-			
-		}
-		
+			}		
+			if(valueyn=='n') {val=false;}		
+		}	
 		System.out.println("the even sum is "+ sumEven);
 		System.out.println("the odd sum is "+ sumOdd);
-		scan.close();
-		
-	}
-}
+		scan.close();	
+	}}
