@@ -1,9 +1,18 @@
 public class LastQues {
-    public static void main (String[] args) {
-        String s1="refrigerator";
-		// int len=sizeof(s1)/sizeof('r');
-		System.out.println(s1.length());
-        String s3="Umbrella";
-		System.out.println(s3.contains("e"));
-    }
+    public static void main(String args[]){
+ 
+        String helloWorld="This is hello world";
+        System.out.println("length of helloWorld string :"+getLengthOfStringWithCharArray(helloWorld));
+        }
+       
+      public static int getLengthOfStringWithCharArray(String str)
+       {
+        int length=0;
+        char[] strCharArray=str.toCharArray();
+        for(char c:strCharArray)
+        {
+         length++;
+        }
+        return length;
+       }
 }
