@@ -1,5 +1,4 @@
 package com.fourthWeek;
-
 public class Patterns {
 	public static void main(String[] args) {
 		for(int i=0;i<4;i++) {// first question
@@ -8,13 +7,15 @@ public class Patterns {
 			}
 			System.out.println(" ");
 		}
+		
 		for(int i=0;i<5;i++) {// second question
 			for(int j=0;j<=i;j++) {
 				System.out.print("* ");
 			}
 			System.out.println(" ");
 		}
-
+		
+		
 		//3rd question:
 		for(int i=1;i<=5;i++) {
 			for(int space=5-i;space>=1;space--){

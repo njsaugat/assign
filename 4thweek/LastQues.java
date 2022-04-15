@@ -1,18 +1,20 @@
+package com.fourthWeek;
 public class LastQues {
+	
+	public static int getLengthString(String str)
+    {
+     int length=0;
+     char[] strCharArray=str.toCharArray();
+     for(int i=0;i<strCharArray.length;i++)
+     {
+      length++;
+     }
+     return length;
+    }
+	
     public static void main(String args[]){
- 
-        String helloWorld="This is hello world";
-        System.out.println("length of helloWorld string :"+getLengthOfStringWithCharArray(helloWorld));
+        System.out.println("length of helloWorld string :"+getLengthString("refrigerator"));
         }
        
-      public static int getLengthOfStringWithCharArray(String str)
-       {
-        int length=0;
-        char[] strCharArray=str.toCharArray();
-        for(char c:strCharArray)
-        {
-         length++;
-        }
-        return length;
-       }
+      
 }

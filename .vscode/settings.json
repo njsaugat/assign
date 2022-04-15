@@ -1,0 +1,13 @@
+{
+    "editor.tokenColorCustomizations": {
+        "[Solarized Light]": {
+            "functions": "#0AA300",
+            "strings": "#005885",
+            "keywords": "#CC562D",
+            "numbers": "#895890",
+            "types": "#4700B5"
+        },
+        "comments": "",
+        "textMateRules": []
+    }
+}
